@@ -6,13 +6,214 @@
     <meta name="description" content="This application is to assist with the selection of font types.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/font_tool.css">
-    <script src="scripts/font_tool.js/" defer></script>
+    <script src="scripts/font_tool.js" defer></script>
 
     <title>Font Tool</title>
   </head>
 
   <body>
-    <h1>Hi, I'm the header!</h1>
+    <header>
+      <h1 id="siteHeader">Font Tool</h1>
+      <p>Use the sections below to help to decide which fonts to use when building applications.</p>
+      <div class="instructions">
+        <ol>
+          <li>Choose a font-family per section from the scroll-down lists.</li>
+          <li>Choose font sizes, styles or weights.</li>
+          <li>Click the reset button to return to the default settings.</li>
+        </ol>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="optionsContainer">
+
+          <h1 id="exH1">I'm a h1 header!</h1>
+          <div class="fontBlock">
+            <h1 class="stickyHeader">Scroll down and choose a font-family by clicking.</h1>
+            <p class="arial">Sans-serif: Arial</p>
+            <p class="futura">Sans-serif: Futura</p>
+            <p class="geneva">Sans-serif: Geneva</p>
+            <p class="gillSands">Sans-serif: Gill Sands</p>
+            <p class="helvetica">Sans-serif: Helvetica</p>
+            <p class="impact">Sans-serif: Impact</p>
+            <p class="lucidaGrande">Sans-serif: Lucida Grande</p>
+            <p class="optima">Sans-serif: Optima</p>
+            <p class="tahoma">Sans-serif: Tahoma</p>
+            <p class="trebuchetMS">Sans-serif: Trebuchet MS</p>
+            <p class="verdana">Sans-serif: Verdana</p>
+            <p class="americanTypewriter">Serif: American Typewriter</p>
+            <p class="baskerville">Serif: Baskerville</p>
+            <p class="bigCaslon">Serif: Big Caslon</p>
+            <p class="didot">Serif: Didot</p>
+            <p class="georgia">Serif: Georgia</p>
+            <p class="hoeflerText">Serif: Hoefler Text</p>
+            <p class="lucidaBright">Serif: Lucida Bright</p>
+            <p class="palatino">Serif: Palatino</p>
+            <p class="timesNewRoman">Serif: Times New Roman</p>
+            <p class="andaleMono">Monospaced: Andale Mono</p>
+            <p class="courier">Monospaced: Courier</p>
+            <p class="courierNew">Monospaced: Courier New</p>
+            <p class="lucidaSansTypewriter">Monospaced: Lucida Sans Typewriter</p>
+            <p class="monaco">Monospaced: Monaco</p>
+            <p class="copperplate">Fantasy: Copperplate</p>
+            <p class="luminari">Fantasy: Luminari</p>
+            <p class="papyrus">Fantasy: Papyrus</p>
+            <p class="bradleyHand">Cursive: Bradley Hand</p>
+            <p class="comicSansMS">Cursive: Comic Sans MS</p>
+            <p class="brushScriptMT">Script: Brush Script MT</p>
+          </div>
+
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_1size" id="exH1_35px">size: 35px</button>
+            <button type="button" class="options_btn opt_1size" id="exH1_40px">size: 40px</button>
+            <button type="button" class="options_btn opt_1size" id="exH1_45px">size: 45px</button>
+            <button type="button" class="options_btn opt_1size" id="exH1_50px">size: 50px</button>
+          </div>
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_1style" id="exH1_normal">style: normal</button>
+            <button type="button" class="options_btn opt_1style" id="exH1_italic">style: italic</button>
+            <button type="button" class="options_btn opt_1style" id="exH1_oblique">style: oblique</button>
+          </div>
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_1weight" id="exH1_300">weight: 300</button>
+            <button type="button" class="options_btn opt_1weight" id="exH1_500">weight: 500</button>
+            <button type="button" class="options_btn opt_1weight" id="exH1_700">weight: 700</button>
+            <button type="button" class="options_btn opt_1weight" id="exH1_900">weight: 900</button>
+          </div>
+
+          <div class="buttonsContainer">
+            <button type="button" class="reset_btn" id="exH1_reset">Reset to default styles!</button>
+          </div>
+
+        </div>
+
+        <div class="optionsContainer">
+
+          <h1 id="exH2">I'm a h2 header!</h1>
+          <div class="fontBlock">
+            <h1 class="stickyHeader">Scroll down and choose a font-family by clicking.</h1>
+            <p class="arial_2">Sans-serif: Arial</p>
+            <p class="futura_2">Sans-serif: Futura</p>
+            <p class="geneva_2">Sans-serif: Geneva</p>
+            <p class="gillSands_2">Sans-serif: Gill Sands</p>
+            <p class="helvetica_2">Sans-serif: Helvetica</p>
+            <p class="impact_2">Sans-serif: Impact</p>
+            <p class="lucidaGrande_2">Sans-serif: Lucida Grande</p>
+            <p class="optima_2">Sans-serif: Optima</p>
+            <p class="tahoma_2">Sans-serif: Tahoma</p>
+            <p class="trebuchetMS_2">Sans-serif: Trebuchet MS</p>
+            <p class="verdana_2">Sans-serif: Verdana</p>
+            <p class="americanTypewriter_2">Serif: American Typewriter</p>
+            <p class="baskerville_2">Serif: Baskerville</p>
+            <p class="bigCaslon_2">Serif: Big Caslon</p>
+            <p class="didot_2">Serif: Didot</p>
+            <p class="georgia_2">Serif: Georgia</p>
+            <p class="hoeflerText_2">Serif: Hoefler Text</p>
+            <p class="lucidaBright_2">Serif: Lucida Bright</p>
+            <p class="palatino_2">Serif: Palatino</p>
+            <p class="timesNewRoman_2">Serif: Times New Roman</p>
+            <p class="andaleMono_2">Monospaced: Andale Mono</p>
+            <p class="courier_2">Monospaced: Courier</p>
+            <p class="courierNew_2">Monospaced: Courier New</p>
+            <p class="lucidaSansTypewriter_2">Monospaced: Lucida Sans Typewriter</p>
+            <p class="monaco_2">Monospaced: Monaco</p>
+            <p class="copperplate_2">Fantasy: Copperplate</p>
+            <p class="luminari_2">Fantasy: Luminari</p>
+            <p class="papyrus_2">Fantasy: Papyrus</p>
+            <p class="bradleyHand_2">Cursive: Bradley Hand</p>
+            <p class="comicSansMS_2">Cursive: Comic Sans MS</p>
+            <p class="brushScriptMT_2">Script: Brush Script MT</p>
+          </div>
+
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_2size" id="exH2_20px">size: 20px</button>
+            <button type="button" class="options_btn opt_2size" id="exH2_25px">size: 25px</button>
+            <button type="button" class="options_btn opt_2size" id="exH2_30px">size: 30px</button>
+            <button type="button" class="options_btn opt_2size" id="exH2_35px">size: 35px</button>
+          </div>
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_2style" id="exH2_normal">style: normal</button>
+            <button type="button" class="options_btn opt_2style" id="exH2_italic">style: italic</button>
+            <button type="button" class="options_btn opt_2style" id="exH2_oblique">style: oblique</button>
+          </div>
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_2weight" id="exH2_300">weight: 300</button>
+            <button type="button" class="options_btn opt_2weight" id="exH2_500">weight: 500</button>
+            <button type="button" class="options_btn opt_2weight" id="exH2_700">weight: 700</button>
+            <button type="button" class="options_btn opt_2weight" id="exH2_900">weight: 900</button>
+          </div>
+
+          <div class="buttonsContainer">
+            <button type="button" class="reset_btn" id="exH2_reset">Reset to default styles!</button>
+          </div>
+
+        </div>
+
+        <div class="optionsContainer">
+
+          <h1 id="exP">I'm a paragraph!</h1>
+          <div class="fontBlock">
+            <h1 class="stickyHeader">Scroll down and choose a font-family by clicking.</h1>
+            <p class="arial_3">Sans-serif: Arial</p>
+            <p class="futura_3">Sans-serif: Futura</p>
+            <p class="geneva_3">Sans-serif: Geneva</p>
+            <p class="gillSands_3">Sans-serif: Gill Sands</p>
+            <p class="helvetica_3">Sans-serif: Helvetica</p>
+            <p class="impact_3">Sans-serif: Impact</p>
+            <p class="lucidaGrande_3">Sans-serif: Lucida Grande</p>
+            <p class="optima_3">Sans-serif: Optima</p>
+            <p class="tahoma_3">Sans-serif: Tahoma</p>
+            <p class="trebuchetMS_3">Sans-serif: Trebuchet MS</p>
+            <p class="verdana_3">Sans-serif: Verdana</p>
+            <p class="americanTypewriter_3">Serif: American Typewriter</p>
+            <p class="baskerville_3">Serif: Baskerville</p>
+            <p class="bigCaslon_3">Serif: Big Caslon</p>
+            <p class="didot_3">Serif: Didot</p>
+            <p class="georgia_3">Serif: Georgia</p>
+            <p class="hoeflerText_3">Serif: Hoefler Text</p>
+            <p class="lucidaBright_3">Serif: Lucida Bright</p>
+            <p class="palatino_3">Serif: Palatino</p>
+            <p class="timesNewRoman_3">Serif: Times New Roman</p>
+            <p class="andaleMono_3">Monospaced: Andale Mono</p>
+            <p class="courier_3">Monospaced: Courier</p>
+            <p class="courierNew_3">Monospaced: Courier New</p>
+            <p class="lucidaSansTypewriter_3">Monospaced: Lucida Sans Typewriter</p>
+            <p class="monaco_3">Monospaced: Monaco</p>
+            <p class="copperplate_3">Fantasy: Copperplate</p>
+            <p class="luminari_3">Fantasy: Luminari</p>
+            <p class="papyrus_3">Fantasy: Papyrus</p>
+            <p class="bradleyHand_3">Cursive: Bradley Hand</p>
+            <p class="comicSansMS_3">Cursive: Comic Sans MS</p>
+            <p class="brushScriptMT_3">Script: Brush Script MT</p>
+          </div>
+
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_3size" id="exP_10px">size: 10px</button>
+            <button type="button" class="options_btn opt_3size" id="exP_14px">size: 14px</button>
+            <button type="button" class="options_btn opt_3size" id="exP_17px">size: 17px</button>
+            <button type="button" class="options_btn opt_3size" id="exP_20px">size: 20px</button>
+          </div>
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_3style" id="exP_normal">style: normal</button>
+            <button type="button" class="options_btn opt_3style" id="exP_italic">style: italic</button>
+            <button type="button" class="options_btn opt_3style" id="exP_oblique">style: oblique</button>
+          </div>
+          <div class="buttonsContainer">
+            <button type="button" class="options_btn opt_3weight" id="exP_300">weight: 300</button>
+            <button type="button" class="options_btn opt_3weight" id="exP_500">weight: 500</button>
+            <button type="button" class="options_btn opt_3weight" id="exP_700">weight: 700</button>
+            <button type="button" class="options_btn opt_3weight" id="exP_900">weight: 900</button>
+          </div>
+
+          <div class="buttonsContainer">
+            <button type="button" class="reset_btn" id="exP_reset">Reset to default styles!</button>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
 
   </body>
 </html>

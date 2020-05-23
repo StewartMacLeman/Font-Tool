@@ -1,1 +1,149 @@
-h1 { color: tomato; }
+/* General ------------------------------------------------------------------- */
+body {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 0;
+  background-color: silver;
+}
+header, section {
+  margin: 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: linen;
+}
+h1, h2, p {
+  margin: 5px auto;
+  padding: 5px;
+  font-size: 1em;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+}
+/* Header styles ----------------------------------------------------------- */
+#siteHeader {
+  font-size: 3em;
+  border: 2px solid black;
+  background-color: inherit;
+}
+.instructions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+ol {
+  margin: 0 auto;
+  text-align: left;
+}
+/* Sections --------------------------------------------------------------- */
+.optionsContainer {
+  position: relative;
+  margin: 5px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 75%;
+}
+.buttonsContainer {
+  position: relative;
+  margin: 5px auto;
+  width: 90%;
+}
+.options_btn {
+  margin: 0 10px;
+  padding: 2px;
+  font-size: 1em;
+  background-color: white;
+  color: black;
+  width: 15%;
+  border-radius: 5px;
+}
+.options_btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.reset_btn {
+  margin: 10px 10px;
+  padding: 2px;
+  font-size: 1em;
+  background-color: white;
+  color: black;
+  width: 69%;
+  border-radius: 5px;
+}
+.reset_btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+/* Fonts List ---------------------------------------------------- */
+.fontBlock {
+  margin: 0px auto;
+  width: 85%;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow-x: scroll;
+}
+.fontBlock p {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.fontBlock p:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+}
+.stickyHeader {
+  position: sticky;
+  top: 0px;
+  width:100%;
+  margin: 0px auto;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+/* Scroll-down Fonts ----------------------------------------------------------- */
+/* Sans-serif fonts ---------------------- */
+.arial, .arial_2, .arial_3 { font-family: arial; }
+.futura, .futura_2, .futura_3 { font-family: futura; }
+.geneva, .geneva_2, .geneva_3 { font-family: geneva; }
+.gillSands, .gillSands_2, .gillSands_3 { font-family: "gill sands"; }
+.helvetica, .helvetica_2, .helvetica_3 { font-family: helvetica; }
+.impact, .impact_2, .impact_3 { font-family: impact; }
+.lucidaGrande, .lucidaGrande_2, .lucidaGrande_3 { font-family: "lucida grande"; }
+.optima, .optima_2, .optima_3 { font-family: optima; }
+.tahoma, .tahoma_2, .tahoma_3 { font-family: tahoma; }
+.trebuchetMS, .trebuchetMS_2, .trebuchetMS_3 { font-family: "trebuchet MS"; }
+.verdana, .verdana_2, .verdana_3 { font-family: verdana; }
+/* Serif fonts ---------------------- */
+.americanTypewriter, .americanTypewriter_2, .americanTypewriter_3 { font-family: "american typewriter"; }
+.baskerville, .baskerville_2, .baskerville_3 { font-family: baskerville; }
+.bigCaslon, .bigCaslon_2, .bigCaslon_3 { font-family: "big caslon"; }
+.didot, .didot_2, .didot_3 { font-family: didot; }
+.georgia, .georgia_2, .georgia_3 { font-family: georgia; }
+.hoeflerText, .hoeflerText_2, .hoeflerText_3 { font-family: "hoefler text"; }
+.lucidaBright, .lucidaBright_2, .lucidaBright_3 { font-family: "lucida bright"; }
+.palatino, .palatino_2, .palatino_3 { font-family: palatino; }
+.timesNewRoman, .timesNewRoman_2, .timesNewRoman_3 { font-family: "times new roman"; }
+/* Monospaced fonts ---------------------- */
+.andaleMono, .andaleMono_2, .andaleMono_3 { font-family: "andale mono"; }
+.courier, .courier_2, .courier_3 { font-family: courier; }
+.courierNew, .courierNew_2, .courierNew_3 { font-family: "courier new"; }
+.lucidaSansTypewriter, .lucidaSansTypewriter_2, .lucidaSansTypewriter_3 { font-family: "lucida sans typewriter"; }
+.monaco, .monaco_2, .monaco_3 { font-family: monaco; }
+/* Fantasy fonts ---------------------- */
+.copperplate, .copperplate_2, .copperplate_3 { font-family: copperplate; }
+.luminari, .luminari_2, .luminari_3 { font-family: luminari; }
+.papyrus, .papyrus_2, .papyrus_3 { font-family: papyrus; }
+/* Script / Cursive fonts ---------------------- */
+.bradleyHand, .bradleyHand_2, .bradleyHand_3 { font-family: "bradley hand"; }
+.comicSansMS, .comicSansMS_2, .comicSansMS_3 { font-family: "comic sans ms"; }
+.brushScriptMT, .brushScriptMT_2, .brushScriptMT_3 { font-family: "brush script mt"; }
