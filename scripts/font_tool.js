@@ -253,6 +253,9 @@ function resetToDefault(reset_btn ,exampleID ,options_btn_size ,options_btn_styl
   let styles = document.querySelectorAll(`.${options_btn_style}`);
   let weights = document.querySelectorAll(`.${options_btn_weight}`);
   let example_text = document.querySelector(`#${exampleID}`);
+  let top_exH1 = document.querySelector("#top_exH1");
+  let top_exH2 = document.querySelector("#top_exH2");
+  let top_exP = document.querySelector("#top_exP");
 
   document.querySelector(`#${reset_btn}`).addEventListener( "click", update );
 
@@ -276,10 +279,13 @@ function resetToDefault(reset_btn ,exampleID ,options_btn_size ,options_btn_styl
 
     if (exampleID == "exH1"){
       example_text.textContent = "I'm a h1 header!";
+      top_exH1.scrollTop = 0;
     } else if (exampleID == "exH2"){
       example_text.textContent = "I'm a h2 header!";
+      top_exH2.scrollTop = 0;
     } else if (exampleID == "exP"){
       example_text.textContent = "I'm a paragraph!";
+      top_exP.scrollTop = 0;
     }
   }
 
